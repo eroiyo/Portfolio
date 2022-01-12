@@ -37,8 +37,6 @@ body{
     background-color: #5B84B1FF;
 }
 
-
-
 .complete {
     width: 100vw;
     height: 100vh;
@@ -70,11 +68,6 @@ header {
     height: 100%;
 }
 
-.navbar {
-    height: 100%;
-    flex-direction: row;
-}
-
 #main-nav {
     width: 100%;
     height: 100%;
@@ -85,17 +78,11 @@ header {
     flex-direction: row;
     width: 100%;
     height: 100%;
-    padding: 0;
-    margin: 0 0;
 }
 
 .navbar-nav > *  {
     display: flex;
     width: 25%;
-    text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
-    height: 100%;
 
 }
 
@@ -108,11 +95,20 @@ header {
 }
 
 .nav-element > * {
-    display: flex;
-    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
 }
 
 #landing {
     height: 100vh;
     width: 100vw;
+}
+
+.title {
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #f89624;
 }
