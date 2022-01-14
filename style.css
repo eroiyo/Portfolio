@@ -37,6 +37,14 @@ body {
   background-color: #798eb2;
 }
 
+.bcl3 {
+  background-color: #8fa8d3;
+}
+
+.relative {
+  position: relative
+}
+
 .complete {
   width: 100%;
   min-height: 100vh;
@@ -52,44 +60,103 @@ body {
   width: 100%;
 }
 
+.menu {
+  font-style: normal;
+  position: static;
+  margin-right: 5%;
+  color: #fff;
+  letter-spacing: 0.03em;
+  font-size: 10px;
+  display: flex;
+}
+
+#toggle-icon {
+  cursor: pointer;
+  display: table;
+}
+
+.hbar1,
+.hbar2,
+.hbar3 {
+  background-color: #fff;
+  width: 5.47645125958379vh;
+  height: 0.6258801439524331vh;
+  transition: 0.5s;
+  margin-top: 1.09375vh;
+  margin-bottom: 1.09375vh;
+  border-radius: 2px;
+}
+
+.rotate-icon .hbar1 {
+  -webkit-transform: rotate(-45deg) translate(-1.25vh, 0.9375vh);
+  transform: rotate(-45deg) translate(-1.25vh, 0.9375vh);
+}
+
+.rotate-icon .hbar2 {
+  opacity: 0;
+}
+
+.rotate-icon .hbar3 {
+  -webkit-transform: rotate(42deg) translate(-1.40625vh, -1.25vh);
+  transform: rotate(42deg) translate(-1.40625vh, -1.25vh);
+}
+
 header {
+  background-color: #191765;
+  align-self: flex-start;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-top: 1vh;
+  height: 7vh;
   position: fixed;
-  width: 100vw;
-  z-index: 10000;
-  background-color: transparent;
-  flex-direction: row;
-  min-height: 50px;
-  height: 8vh;
+  z-index: 2;
 }
 
-.container {
-  background-color: #2c3b55;
-  flex-direction: row;
+nav {
+  position: fixed;
+  display: flex;
   width: 100%;
-  height: 100%;
+  height: 7vh;
+  flex-direction: row;
 }
 
-.navbar-nav {
+.nav-element{
+  margin: auto auto;
+}
+
+.secondary-nav {
+  position: fixed;
+  display: none;
+  width: 100%;
+  margin-top: 7vh;
+  height: 93vh;
+  flex-direction: column;
+  z-index: 2;
+  background-color: #191765;
+  background-image: url(assest/nav2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.nav2-first {
+  margin-top: 4vh;
+}
+
+.nav2-element {
+  margin-bottom: 18px;
+  margin-left: 40px;
+  margin-right: 52px;
   display: flex;
   flex-direction: row;
-  padding-left: 0;
-  width: 100%;
-  height: 100%;
 }
 
-.navbar-nav > * {
-  display: flex;
-  width: 25%;
-}
-
-.nav-elmenet {
-  display: flex;
-}
-
-.nav-element > * {
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
+.nav2-arrow {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 80%;
+  color: #7d73fc;
+  font-size: 30px;
 }
 
 #landing {
@@ -137,6 +204,7 @@ header {
   border-radius: 30px;
 }
 
+
 .social-media {
   list-style-type: none;
   padding: 0;
@@ -154,4 +222,19 @@ header {
   color: #f89624;
   padding: 15px;
   text-decoration: none;
+}
+
+#portfoliob {
+  height: 300vh;
+  position: relative;
+  z-index: 3; 
+}
+
+.work_image {
+  width: 100%;
+  height: 100vh;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 2
 }
