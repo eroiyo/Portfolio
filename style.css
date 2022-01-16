@@ -268,11 +268,26 @@ nav {
   z-index: 3;
 }
 
-.test {
-  width: 10px;
-  height: 250vh;
-  background-color: red;
-  z-index: 3;
+.subtitle-div {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.subtitle-text {
+  width: 100%;
+  margin-bottom: 2%;
+  font-size: 2rem;
+}
+
+.subtitle-bar {
+  height: 0.50vh;
+  background-color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 80%;
 }
 
 @media screen and (min-width: 1024px) {
@@ -284,5 +299,13 @@ nav {
     margin-top: auto;
     margin-bottom: auto;
     text-align: center;
+  }
+
+  .subtitle-div {
+    flex-direction: row;
+  }
+
+  .subtitle-text {
+    width: 20%;
   }
 }
