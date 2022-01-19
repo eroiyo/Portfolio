@@ -347,10 +347,26 @@ nav {
   flex-direction: row;
   display: flex;
   margin-left: 0px;
+  padding-left: 0px;
 }
 
 .skills-used > * {
-  margin: 15px;
+  padding: 3px 5px;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #2c3b55;
+  background-color: #2c3b55;
+  margin-left: inherit;
+  margin-top: 7.5px;
+  margin-right: 10px;
+  margin-bottom: 7.5px;
+}
+
+.projectbutton {
+  width: auto;
+  font-size: 1rem;
+  margin-top: 10px;
 }
 
 .project-image {
