@@ -14,27 +14,27 @@
   <header>
     <nav>
       <div class="nav-div">
-      <a id="logo">Arturo Ortega</a>
-    </div>
-    <div>
-      <a href="#" id="nothing2" class="nav-element"></a>
-    </div>
-    <div class="nav-div">
-      <a href="#portfoliob" id="portfolio-nav" class="nav-element">Projects</a>
-    </div>
-    <div class="nav-div">
-      <a href="#landing" id="about-nav" class="nav-element">About</a>
-    </div>
-    <div class="nav-div">
-      <a href="#contact" id="contact-nav" class="nav-element">Contact</a>
-      <a class="menu">
-        <div id="toggle-icon" onclick="clickFunction()">
-          <div class="hbar1"></div>
-          <div class="hbar2"></div>
-          <div class="hbar3"></div>
-        </div>
-      </a>
-    </div>
+        <a id="logo">Arturo Ortega</a>
+      </div>
+      <div>
+        <a href="#" id="nothing2" class="nav-element"></a>
+      </div>
+      <div class="nav-div">
+        <a href="#portfoliob" id="portfolio-nav" class="nav-element">Projects</a>
+      </div>
+      <div class="nav-div">
+        <a href="#landing" id="about-nav" class="nav-element">About</a>
+      </div>
+      <div class="nav-div">
+        <a href="#contact" id="contact-nav" class="nav-element">Contact</a>
+        <a class="menu">
+          <div id="toggle-icon" onclick="clickFunction()">
+            <div class="hbar1"></div>
+            <div class="hbar2"></div>
+            <div class="hbar3"></div>
+          </div>
+        </a>
+      </div>
     </nav>
     <nav class="secondary-nav">
       <div onclick="clickFunction()" class="nav2-element nav2-first"><a href="#portfoliob" class="portfolio-nav2">
@@ -64,76 +64,44 @@
         my work and experience! If you like what you see and have a project you
         need coded, don’t hestiate to contact me.
       </p>
-        <ul class="social-media">
-          <li class="social-li">
-            <a href="#"><i class="fa fa-github" aria-hidden="true"></i> </a>
-          </li>
-          <li class="social-li">
-            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i> </a>
-          </li>
-          <li class="social-li">
-            <a href="#"><i class="fa fa-angellist" aria-hidden="true"></i> </a>
-          </li>
-          <li class="social-li">
-            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a>
-          </li>
-          <li class="social-li">
-            <a href="#"><i class="fa fa-medium" aria-hidden="true"></i> </a>
-          </li>
-        </ul>
+      <ul class="social-media">
+        <li class="social-li">
+          <a href="#"><i class="fa fa-github" aria-hidden="true"></i> </a>
+        </li>
+        <li class="social-li">
+          <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i> </a>
+        </li>
+        <li class="social-li">
+          <a href="#"><i class="fa fa-angellist" aria-hidden="true"></i> </a>
+        </li>
+        <li class="social-li">
+          <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a>
+        </li>
+        <li class="social-li">
+          <a href="#"><i class="fa fa-medium" aria-hidden="true"></i> </a>
+        </li>
+      </ul>
       <a href="#portfoliob" class="btn">CONTACT ME</a>
     </div>
     <div id="portfoliob" class=" bcl3 complete">
-      
+      <div class="space"></div>
       <div class="surface">
+
         <div class="subtitle-div">
-        <h2 class="subtitle-text">My Projects</h2>
-        <div class="subtitle-bar"></div>
+          <h2 class="subtitle-text">My Projects</h2>
+          <div class="subtitle-bar"></div>
+        </div>
+        <div class="space"></div>
+        <ul class="projects" id="projects">
+
+        </ul>
       </div>
-      <div class="projects">
-        <div class="project-card reverse">
-          <div class="project-info">
-            <h3 class="project-title">Project Title</h3>
-            <h4 class="project-subtitle">Project Subtitle</h4>
-            <p class="project-description">Project Description</p>
-            <ul class="skills-used">
-              <li>a</li>
-              <li>b</li>
-              <li>c</li>
-            </ul>
-            <button class="projectbutton btn" value="See Project">See Project</button>
-          </div>
-          <div class="project-image">
-            <div class="image-container">
-              <img src="/images/test.jpg" alt="polygons" class="image">
-          </div>
-        </div>
-        </div>
-        <div class="project-card">
-          <div class="project-info">
-            <h3 class="project-title">Multi-Post Stories</h3>
-            <h4 class="project-subtitle">Facebook Clone</h4>
-            <p class="project-description">Experimental content creation feature that allows user to add to an existing story over the course of a day without spamming their friends</p>
-            <ul class="skills-used">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-            </ul>
-            <button class="projectbutton btn" value="See Project">See Project</button>
-          </div>
-          <div class="project-image">
-            <div class="image-container">
-              <img src="/images/test.jpg" alt="polygons" class="image">
-          </div>
-        </div>
-      </div>
+      <div class=" absolute">
+        <img src="/images/work.png" alt="polygons" class="work_image">
       </div>
     </div>
-    <div class=" absolute">
-      <img src="/images/work.png" alt="polygons" class="work_image">
-    </div>
-  </div>
-  <script src="./js/script.js"></script>
+    <script src="./js/script.js"></script>
+    <script type="module" src="./js/index.js"></script>
 </body>
 
 </html>
