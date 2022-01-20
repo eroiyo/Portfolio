@@ -4,17 +4,11 @@ const myProjects = data;
 const modal = document.querySelector('.modal-background');
 const bt = document.querySelector('.modal-buttons');
 
-import data from './data.js';
-
-const myProjects = data;
-const modal = document.querySelector('.modal-background');
-const bt = document.querySelector('.modal-buttons');
-
 function Project(object) {
   if (object.img !== undefined) {
     this.image = object.img;
   } else {
-    this.image = 'assest/placeholder.png';
+    this.image = 'image/test.jpg';
   }
   if (object.bImg !== undefined) {
     this.bigImage = object.bImg;
@@ -25,6 +19,11 @@ function Project(object) {
     this.title = object.title;
   } else {
     this.title = 'Multi-Post Stories';
+  }
+  if (object.subtitle !== undefined) {
+    this.subtitle = object.subtitle;
+  } else {
+    this.subtitle = 'Multi-Post Stories';
   }
   if (object.alt !== undefined) {
     this.alt = object.alt;
@@ -74,7 +73,70 @@ function Project(object) {
     bt.style.display = 'flex';
     modal.style.visibility = 'visible';
   }
-  this.appear = function () {
+  this.appear = function (right) {
+    //create the project card
+    const objetive = document.getElementById('projects');
+    const projectCard = document.createElement('li');
+    projectCard.classList.add("project-card");
+
+    //create the project info box
+    const projectInfo = document.createElement("div");
+    projectInfo.classList.add("project-info");
+    const projectTitle = document.createElement("h3");
+    projectTitle.textContent = this.title;
+    projectTitle.classList.add("project-title")
+    const projectSubTitle = document.createElement("h4");
+    projectSubTitle.classList.add("project-subtitle")
+    projectSubTitle.textContent = this.subtitle;
+    const projectOverview = document.createElement("p");
+    projectOverview.classList.add("project-description")
+    projectOverview.textContent = this.overview;
+    projectInfo.appendChild(projectTitle)
+    projectInfo.appendChild(projectSubTitle)
+    projectInfo.appendChild(projectOverview)
+
+    //create tags
+    const tags = document.createElement('ul');
+    tags.classList.add('skills-used');
+    const tagsCurrentValues = this.tags;
+    for (let i = 0; i < tagsCurrentValues.length; i += 1) {
+      const li = document.createElement('li');
+      li.innerHTML = this.tags[i];
+      tags.appendChild(li);
+    }
+    projectInfo.appendChild(tags)
+
+    //create button
+    const button = document.createElement("button");
+    button.classList.add("projectbutton");
+    button.classList.add("btn");
+    button.value ="See Project";
+    button.textContent ="See Project";
+    button.type = 'button';
+    const temp = 0 + this.id;
+    button.onclick = function () {
+      callp(temp);
+    };
+    projectInfo.appendChild(button)
+
+    //create image section
+    const projectImage = document.createElement("div");
+    projectImage.classList.add("project-image");
+    const imageContainer = document.createElement("div");
+    imageContainer.classList.add("image-container")
+    const smImg = document.createElement('img');
+    smImg.src = this.image;
+    smImg.alt = this.alt;
+    smImg.classList.add('image');
+    imageContainer.appendChild(smImg);
+    projectImage.appendChild(imageContainer);
+
+    projectCard.appendChild(projectInfo);
+    projectCard.appendChild(projectImage);
+    if(right){
+      projectCard.classList.add("reverse")
+    }
+    objetive.appendChild(projectCard)
   }
 }
 
