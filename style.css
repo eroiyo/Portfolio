@@ -393,7 +393,7 @@ nav {
   margin-right: auto;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 638px) {
   .menu {
     display: none;
   }
