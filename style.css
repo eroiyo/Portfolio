@@ -107,8 +107,11 @@ nav {
   flex-direction: row;
 }
 
-.logo {
+#logo {
   height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 1.5rem;
 }
 
 .nav-div {
@@ -451,6 +454,15 @@ nav {
     margin-bottom: 15px;
   }
 
+  .skills-used > * {
+    margin-right: 15px;
+    margin-left: 0;
+  }
+
+  .btn {
+    width: 20%;
+  }
+
   .projectbutton {
     width: 100px;
     padding: 10px;
@@ -471,12 +483,18 @@ nav {
     font-size: 1.5rem;
     width: 50%;
   }
-  
-  .btn {
-    width: 20%;
-  }
 
   .social-media {
     width: 50%;
+  }
+
+  .subtitle-div {
+    flex-direction: row;
+  }
+
+  .subtitle-text {
+    width: 30%;
+    margin-left: 0;
+    margin-right: 0;
   }
 }

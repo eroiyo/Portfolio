@@ -8,7 +8,7 @@ function Project(object) {
   if (object.img !== undefined) {
     this.image = object.img;
   } else {
-    this.image = 'assest/placeholder.png';
+    this.image = 'assest/test.jpg';
   }
   if (object.bImg !== undefined) {
     this.bigImage = object.bImg;
