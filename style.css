@@ -365,7 +365,7 @@ nav {
 }
 
 .projectbutton {
-  width: 47%;
+  width: 150px;
   font-size: 1rem;
   margin-top: 15px;
   text-align: center;
@@ -458,7 +458,7 @@ nav {
   }
 
   .projectbutton {
-    width: 22%;
+    width: 90px;
     padding: 10px;
     margin-left: 0;
     font-size: 1rem;
