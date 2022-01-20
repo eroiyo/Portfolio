@@ -187,21 +187,23 @@ nav {
   position: relative;
   background-size: cover;
   background-image: url("./images/landing_3.png");
+  justify-content:space-around
+}
+
+#landing > * {
+  margin-top: 0;
+  margin-bottom: 0;  
+
 }
 
 .title {
-  margin-left: auto;
-  margin-right: auto;
   font-size: 3rem;
   font-weight: 700;
   color: #f89624;
-  margin-top: 50px;
-  margin-bottom: 5px;
 }
 
 .subtitle {
   font-size: 2rem;
-  margin-top: 5px;
 }
 
 .information {
@@ -393,6 +395,10 @@ nav {
   margin-right: auto;
 }
 
+.changed-header {
+  background-color: #191765;
+}
+
 @media screen and (min-width: 638px) {
   .menu {
     display: none;
@@ -420,7 +426,7 @@ nav {
 
   .project-card {
     flex-direction: row;
-    height: 300px;
+    min-height: 300px;
     padding: 3%;
   }
 
@@ -466,7 +472,7 @@ nav {
   }
 
   .project-description {
-    height: 90px;
+    min-height: 90px;
     width: 100%;
   }
 
