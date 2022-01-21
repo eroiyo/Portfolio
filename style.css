@@ -129,7 +129,8 @@ nav {
 
 .menu {
   font-style: normal;
-  position: static;
+  position: relative;
+  z-index: 7;
   margin-right: 5%;
   color: #fff;
   letter-spacing: 0.03em;
@@ -139,15 +140,15 @@ nav {
 }
 
 .secondary-nav {
+  padding-top: 7vh;
   position: fixed;
   display: none;
   width: 100%;
-  margin-top: 7vh;
-  height: 93vh;
+  height: 100vh;
   flex-direction: column;
-  z-index: 5;
-  background-color: #191765;
-  background-image: url(assest/nav2.png);
+  z-index: -1;
+  background-color: #02003d;
+  background-image: url(images/nav.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -396,7 +397,12 @@ nav {
 }
 
 .changed-header {
-  background-color: #191765;
+  padding: 0;
+  background-color: #93a4c2;
+  background-color: transparent;
+}
+.padding-top {
+  padding-top: 1vh;
 }
 
 @media screen and (min-width: 638px) {
