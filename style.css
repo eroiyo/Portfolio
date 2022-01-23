@@ -147,8 +147,8 @@ nav {
   height: 100vh;
   flex-direction: column;
   z-index: -1;
-  background-color: #02003d;
-  background-image: url(images/nav.png);
+  background-color: #8fa8d3;
+  background-image: url(images/nav3.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -169,7 +169,6 @@ nav {
 .nav2-arrow {
   width: auto;
   display: flex;
-  color: #7d73fc;
   font-size: 30px;
   text-align: center;
   margin-top: auto;

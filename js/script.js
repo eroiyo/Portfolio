@@ -1,5 +1,5 @@
 const nav2 = document.getElementById('nav2');
-const screenSize = window.matchMedia('(min-width: 1024px)');
+const screenSize = window.matchMedia('(min-width: 638px)');
 const logo = document.querySelector('.logo');
 const modal = document.querySelector('.modal-background');
 const bt = document.querySelector('.modal-buttons');
