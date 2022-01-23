@@ -1,4 +1,4 @@
-const nav2 = document.querySelector('.secondary-nav');
+const nav2 = document.getElementById('nav2');
 const screenSize = window.matchMedia('(min-width: 1024px)');
 const logo = document.querySelector('.logo');
 const modal = document.querySelector('.modal-background');
