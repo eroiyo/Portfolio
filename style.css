@@ -129,7 +129,8 @@ nav {
 
 .menu {
   font-style: normal;
-  position: static;
+  position: relative;
+  z-index: 7;
   margin-right: 5%;
   color: #fff;
   letter-spacing: 0.03em;
@@ -139,15 +140,15 @@ nav {
 }
 
 .secondary-nav {
+  padding-top: 7vh;
   position: fixed;
   display: none;
   width: 100%;
-  margin-top: 7vh;
-  height: 93vh;
+  height: 100vh;
   flex-direction: column;
-  z-index: 5;
-  background-color: #191765;
-  background-image: url(assest/nav2.png);
+  z-index: -1;
+  background-color: #455268;
+  background-image: url(images/nav3.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -159,21 +160,19 @@ nav {
 .nav2-element {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 .nav2-element > * {
-  width: 200px;
+  width: 100%;
 }
 
-.nav2-arrow {
-  width: auto;
-  display: flex;
-  color: #7d73fc;
-  font-size: 30px;
-  text-align: center;
-  margin-top: auto;
-  margin-bottom: auto;
-  height: fit-content;
+.nav2-text {
+  width: 80%;
+  text-align: left;
+  border-bottom-style: solid;
+  border-width: 2px;
+
 }
 
 #landing {
@@ -187,21 +186,23 @@ nav {
   position: relative;
   background-size: cover;
   background-image: url("./images/landing_3.png");
+  justify-content:space-around
+}
+
+#landing > * {
+  margin-top: 0;
+  margin-bottom: 0;  
+
 }
 
 .title {
-  margin-left: auto;
-  margin-right: auto;
   font-size: 3rem;
   font-weight: 700;
   color: #f89624;
-  margin-top: 50px;
-  margin-bottom: 5px;
 }
 
 .subtitle {
   font-size: 2rem;
-  margin-top: 5px;
 }
 
 .information {
@@ -365,7 +366,7 @@ nav {
 }
 
 .projectbutton {
-  width: 136px;
+  width: 150px;
   font-size: 1rem;
   margin-top: 15px;
   text-align: center;
@@ -375,7 +376,6 @@ nav {
 .project-image {
   margin-top: 30px;
   width: 100%;
-  height: 100%;
   padding: 0 0;
   display: flex;
 }
@@ -394,7 +394,16 @@ nav {
   margin-right: auto;
 }
 
-@media screen and (min-width: 1024px) {
+.changed-header {
+  padding: 0;
+  background-color: #93a4c2;
+  background-color: transparent;
+}
+.padding-top {
+  padding-top: 1vh;
+}
+
+@media screen and (min-width: 638px) {
   .menu {
     display: none;
   }
@@ -421,7 +430,7 @@ nav {
 
   .project-card {
     flex-direction: row;
-    height: 300px;
+    min-height: 300px;
     padding: 3%;
   }
 
@@ -455,10 +464,11 @@ nav {
 
   .btn {
     width: 20%;
+    text-align: center;
   }
 
   .projectbutton {
-    width: 100px;
+    width: 102px;
     padding: 10px;
     margin-left: 0;
     font-size: 1rem;
@@ -466,7 +476,7 @@ nav {
   }
 
   .project-description {
-    height: 90px;
+    min-height: 90px;
     width: 100%;
   }
 
@@ -483,11 +493,16 @@ nav {
   }
 
   .subtitle-div {
+    width: 85%;
+  }
+
+  .subtitle-div {
     flex-direction: row;
   }
 
   .subtitle-text {
-    width: 30%;
+    width: 20%;
+    text-align: left;
     margin-left: 0;
     margin-right: 0;
   }
