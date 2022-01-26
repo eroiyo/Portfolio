@@ -403,11 +403,15 @@ nav {
   padding-top: 1vh;
 }
 
-#about-section {
+#contact-section {
   background-image: url("images/raw.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+}
+
+#about-section {
+  background-color: white;
 }
 
 @media screen and (min-width: 638px) {
