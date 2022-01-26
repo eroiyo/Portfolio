@@ -181,10 +181,10 @@ nav {
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-repeat: no-repeat;
-  background-position: center;
   position: relative;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   background-image: url("./images/landing_3.png");
   justify-content:space-around
 }
@@ -401,6 +401,13 @@ nav {
 }
 .padding-top {
   padding-top: 1vh;
+}
+
+#about-section {
+  background-image: url("images/raw.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
 }
 
 @media screen and (min-width: 638px) {
