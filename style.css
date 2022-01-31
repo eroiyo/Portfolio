@@ -193,7 +193,7 @@ nav {
 .title {
   font-size: 3rem;
   font-weight: 700;
-  color: #f89624;
+  color: #F5B538;
 }
 
 .subtitle {
@@ -221,7 +221,7 @@ nav {
 .social-media {
   list-style-type: none;
   padding: 0;
-  color: #f89624;
+  color: #F5B538;
   display: flex;
   flex-direction: row;
   width: 80%;
@@ -235,7 +235,7 @@ nav {
 
 .fa {
   display: block;
-  color: #f89624;
+  color: #F5B538;
   text-decoration: none;
 }
 
@@ -332,7 +332,7 @@ nav {
 .project-title {
   margin-top: 15px;
   font-size: 2rem;
-  color: #f89624;
+  color: #F5B538;
 }
 
 .project-subtitle {
@@ -434,6 +434,26 @@ nav {
 
 #ab2 {
   background-color: #5f7499;
+}
+
+.resume {
+  width: 152px;
+}
+
+.iam {
+  padding-top: 7vh;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  justify-content: center;
+}
+
+.iam-text{
+  color: black;
+  margin-top: 25%;
+  font-size: 3rem;
 }
 
 @media screen and (min-width: 638px) {
