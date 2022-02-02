@@ -68,6 +68,38 @@
       </div>
     </nav>
   </header>
+  <div class="modal-background">
+    <div class="modal">
+      <div class="modal-header">
+        <h2 class="modal-title">Multi - Post stories</h2>
+        <div class="X">
+          <i class="fa fa-times" aria-hidden="true" onclick="closeModal()"></i>
+        </div>
+      </div>
+      <img class=modal-img src="assest/Big.png" alt="Big-Placeholder">
+      <p class=modal-info>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+        been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+        scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting ever since the
+        1500s, when an unknown printer took a galley of type veris lapoa todoe.
+
+      </p>
+      <div class="tags" id="modal-tags">
+        <span>Css</span>
+        <img class="rectangle" src="assest/Rectangle.png" alt="Rectangle">
+        <span>Html</span>
+        <img class="rectangle" src="assest/Rectangle.png" alt="Rectangle">
+        <span>Bootstrap</span>
+        <img class="rectangle" src="assest/Rectangle.png" alt="Rectangle">
+        <span>Ruby</span>
+      </div>
+      <div class="modal-buttons">
+        <a class="button modal-button live" href="#"><span>See Live</span><img src="assest/Icon.png" class="icon"
+            alt="circle with and arrow"></a>
+        <a class="button modal-button repo" href="#"><span>See Source<i class="fa fa-github git"
+              aria-hidden="true"></i></span></a>
+      </div>
+    </div>
+  </div>
   <div class="content">
     <div id="landing" class="complete bcl2">
       <div class="space"></div>
@@ -136,16 +168,16 @@
       with it
     </p>
     <form action="https://formspree.io/f/xayajwqb" method="POST" id='contact-form'>
-      <div class="small"></div>
+      <div class="small small-name"></div>
       <div class="names">
         <input placeholder="Name" class="name" type="text" name="name" maxlength="30" id="name" />
         <input placeholder="Last Name (Optional)" class="last" type="text" name="last" maxlength="30" id="last" />
       </div>
-      <div class="small"></div>
+      <div class="small small-email"></div>
       <input placeholder="example@email.com" type="email" class="email" id="email" name="email" />
       <div class=small>
       </div>
-      <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Write your message here"></textarea>
+      <textarea name="textarea .small-textarea" id="textarea" cols="30" rows="10" placeholder="Write your message here"></textarea>
         <button class="btn submit" type="submit">
           <span class="submit-text">Send</span>
         </button>

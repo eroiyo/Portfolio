@@ -505,6 +505,140 @@ input.last {
   width: 80%;
 }
 
+.modal-background {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(4px);
+  visibility: hidden;
+}
+
+.modal {
+  display: flex;
+  width: 87.2vw;
+  height: 90vh;
+  position: fixed;
+  background-color: rgba(128, 128, 128, 0.45);
+  z-index: 3;
+  flex-direction: column;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  font-size: 20px;
+  overflow: scroll;
+}
+
+.modal::-webkit-scrollbar {
+  display: none;
+}
+
+.modal-header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 85.3211009174312%;
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-title {
+  font-size: 20px;
+  align-self: center;
+  color: white;
+  text-align: left;
+}
+
+.X {
+  margin-left: auto;
+  position: fixed;
+  left: 85%;
+  top: 12%;
+  cursor: pointer;
+}
+
+.modal-img {
+  margin-top: 12px;
+  width: 74.52086811352254vw;
+  height: 48.34507931379061vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-info {
+  font-size: 16px;
+  line-height: 24px;
+  width: 74.52086811352254vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#modal-tags {
+  width: 74.52086811352254vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.modal-button span {
+  font-size: 12px;
+}
+
+#modal-tags span {
+  font-size: 15px;
+}
+
+.modal-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-button {
+  display: flex;
+  background-color: #7d73fc;
+  border: none;
+  text-align: center;
+  padding: 2vw;
+  font-size: 12px;
+  margin-top: 28px;
+  margin-bottom: 1px;
+  width: 108px;
+  height: 48px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-button:focus {
+  background-color: #5e42d7;
+}
+
+.modal-button:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  background-color: #7d73fc;
+}
+
+.repo {
+  margin-top: 24px;
+  width: 124px;
+  margin-bottom: 28px;
+}
+
+.icon {
+  margin: auto auto;
+}
+
+.git {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
 @media screen and (min-width: 638px) {
   .menu {
     display: none;
@@ -640,6 +774,7 @@ input.last {
     width: 47.5%;
     height: 4vw;
     margin: 0 0;
+    padding: 0 0;
   }
 
   input.last {
@@ -668,6 +803,7 @@ input.last {
     font-size: 1vw;
     width: 100%;
     height: 100px;
+    padding: 0 0;
   }
 
   .contact-info {
@@ -680,5 +816,82 @@ input.last {
   .submit {
     margin-top: 5vh;
     width: 13%;
+  }
+
+  .modal {
+    display: flex;
+    width: 80.27777777777777%;
+    height: 90vh;
+    font-size: 20px;
+  }
+
+  .modal-title {
+    font-size: 40px;
+  }
+
+  .X {
+    top: 10%;
+  }
+
+  .modal-img {
+    margin-top: 12px;
+    width: 96.68411867364748%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .modal-info {
+    margin-top: 30px;
+    line-height: 30px;
+    width: 56.055363321799305%;
+    color: white;
+  }
+
+  #modal-tags {
+    width: 30.527050610820243%;
+    margin-top: 80px;
+    margin-bottom: 48px;
+  }
+
+  .modal-buttons {
+    flex-direction: row;
+    width: 30.527050610820243%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+  }
+
+  .modal-button {
+    display: flex;
+    background-color: #7d73fc;
+    color: black;
+    transition-duration: 0.4s;
+    border: none;
+    padding: 1.3888888888888888vw;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: 150px;
+    height: auto;
+  }
+
+  .repo {
+    width: 170px;
+    margin-left: 78px;
+  }
+
+  .icon {
+    margin: auto auto;
+  }
+
+  .git {
+    font-size: 20px;
+    margin-left: 7px;
+  }
+
+  .modal-button span {
+    font-size: 12px;
+    margin: auto auto;
   }
 }
