@@ -337,7 +337,7 @@ nav {
 
 .project-subtitle {
   margin-top: 10px;
-  font-size: 1.75rem;
+  font-size: 1.50rem;
   margin-bottom: 10px;
 }
 
@@ -523,14 +523,13 @@ input.last {
   width: 87.2vw;
   height: 90vh;
   position: fixed;
-  background-color: rgba(128, 128, 128, 0.45);
+  background-color: rgb(95, 116, 153, 0.60);
   z-index: 3;
   flex-direction: column;
   border-width: 1px;
   border-style: solid;
   border-color: white;
   color: white;
-  font-size: 20px;
   overflow: scroll;
 }
 
@@ -553,6 +552,7 @@ input.last {
   align-self: center;
   color: white;
   text-align: left;
+  width: 100%
 }
 
 .X {
@@ -572,7 +572,6 @@ input.last {
 }
 
 .modal-info {
-  font-size: 16px;
   line-height: 24px;
   width: 74.52086811352254vw;
   height: auto;
@@ -581,18 +580,16 @@ input.last {
 }
 
 #modal-tags {
-  width: 74.52086811352254vw;
+  align-content: center;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
 }
 
-.modal-button span {
-  font-size: 12px;
-}
-
 #modal-tags span {
-  font-size: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .modal-buttons {
@@ -606,7 +603,6 @@ input.last {
   border: none;
   text-align: center;
   padding: 2vw;
-  font-size: 12px;
   margin-top: 28px;
   margin-bottom: 1px;
   width: 108px;
@@ -830,7 +826,12 @@ input.last {
   }
 
   .X {
-    top: 10%;
+    top: 15%;
+    font-size: 30px;
+  }
+
+  .red {
+    color: red;
   }
 
   .modal-img {
@@ -849,7 +850,7 @@ input.last {
   }
 
   #modal-tags {
-    width: 30.527050610820243%;
+    width: 55%;
     margin-top: 80px;
     margin-bottom: 48px;
   }
@@ -891,7 +892,6 @@ input.last {
   }
 
   .modal-button span {
-    font-size: 12px;
     margin: auto auto;
   }
 }

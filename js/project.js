@@ -139,7 +139,6 @@ function Project(object) {
     objetive.appendChild(projectCard)
   }
   this.message = function () {
-    let rectangle = 0;
     const modalTitle = document.querySelector('.modal-title');
     modalTitle.textContent = this.title;
     const modalImage = document.querySelector('.modal-img');
@@ -150,21 +149,11 @@ function Project(object) {
     while (modalTags.hasChildNodes()) {
       modalTags.removeChild(modalTags.lastChild);
     }
-    rectangle = document.createElement('img');
-    rectangle.classList.add('rectangle');
-    rectangle.src = 'assest/Rectangle.png';
-    rectangle.alt = 'Rectangle';
-    modalTags.appendChild(rectangle);
     const copy = this.tags;
     for (let i = 0; i < copy.length; i += 1) {
       const span = document.createElement('span');
       span.innerHTML = this.tags[i];
-      rectangle = document.createElement('img');
-      rectangle.classList.add('rectangle');
-      rectangle.src = 'assest/Rectangle.png';
-      rectangle.alt = 'Rectangle';
       modalTags.appendChild(span);
-      modalTags.appendChild(rectangle);
     }
     const live = document.querySelector('.live');
     live.href = this.live;
