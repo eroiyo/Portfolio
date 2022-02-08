@@ -5,7 +5,7 @@ const data = [
         subtitle: 'Page using 2 different repositories',
         img: 'images/carhub.png',
         bImg: 'images/carhub.png',
-        view: 'This is a page made with Ruby on rails and react using 2 different repositories, one that host the api, and the other that host the front end code, so the code is more easy to mantain',
+        view: 'This is a page made with Ruby on rails and react using 2 different repositories, one that host the api, and the other that host the front end code,  It is a basic Aston Martins renting app where you can choose a car and rent it for a period of time.',
         desc: 'This is the first big description of this template projects, i will try to do my best to make them all different, but trying to they still have the same lengh, i dont use lorem fo this case so lets see how they result, this is writteng without any application or help of a machine so ejoy reading a lot of human text, this is over 100 lines but is near to the content of the orginal OH we finished.',
         tags: 'Css,Html,React,Rails',
         live: '#',
@@ -45,8 +45,8 @@ const data = [
         id: 3,
         title: 'Conference Website',
         subtitle: 'Website created using an behance design as reference',
-        img: 'images/conference.jpg',
-        bImg: 'images/conference.jpg',
+        img: 'images/conference.png',
+        bImg: 'images/conference.png',
         view: 'Conference webpage, created for an Capstone project to practice our html skills, we should pick a topic and use layout, colors and typographic already defined in a behance design made by Cindy Shin',
         desc: `<article class="modal-info">
         <p>This is a fully responsive, one-page website for a fictional conference named World Chocolate Convention 2021</p>
