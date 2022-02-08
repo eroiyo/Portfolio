@@ -144,7 +144,7 @@ function Project(object) {
     const modalImage = document.querySelector('.modal-img');
     modalImage.src = this.bigImage;
     const modalInfo = document.querySelector('.modal-info');
-    modalInfo.textContent = this.description;
+    modalInfo.innerHTML = this.description;
     const modalTags = document.querySelector('#modal-tags');
     while (modalTags.hasChildNodes()) {
       modalTags.removeChild(modalTags.lastChild);

@@ -48,7 +48,18 @@ const data = [
         img: 'images/conference.jpg',
         bImg: 'images/conference.jpg',
         view: 'Conference webpage, created for an Capstone project to practice our html skills, we should pick a topic and use layout, colors and typographic already defined in a behance design made by Cindy Shin',
-        desc: '',
+        desc: `<article class="modal-info">
+        <p>This is a fully responsive, one-page website for a fictional conference named World Chocolate Convention 2021</p>
+
+        <p>The conference website have a white navigation bar, which includes a logo, as well as sections for "Home" and  "About"</p>
+        
+        <p>Landing in the home section provides a professional, polished look for your conference. Use white space to give this design a clean look and feel, highlighting your content and drawing attention to your event website at the same time informing about the schedule.</p>
+        
+        <p>Continuing with the section below, mentioning the main events of the conference and the dynamically generated speaker section that show the experts that will accompany us</p>
+        
+        <p>About section talk about the event values, and give space to showcase the prior events
+        
+        <p>Layout and design inspired by Cindy Shin</p></article>`,
         tags: 'Css,Html,Javascript',
         live: 'https://eroiyo.github.io/Conference-Web/',
         repo: 'https://github.com/eroiyo/Conference-Web',

@@ -565,19 +565,12 @@ input.last {
 
 .modal-img {
   margin-top: 12px;
-  width: 74.52086811352254vw;
-  height: 48.34507931379061vw;
+  width: 74vw;
+  height: 48vw;
   margin-left: auto;
   margin-right: auto;
 }
 
-.modal-info {
-  line-height: 24px;
-  width: 74.52086811352254vw;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 #modal-tags {
   align-content: center;
@@ -628,6 +621,15 @@ input.last {
 .white{
   color: white;
   font-size: 20px;
+}
+
+.modal-info > p {
+  line-height: 24px;
+  width: 74vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
 
 @media screen and (min-width: 638px) {
@@ -829,10 +831,10 @@ input.last {
     margin-right: auto;
   }
 
-  .modal-info {
+  .modal-info > p {
     margin-top: 30px;
     line-height: 30px;
-    width: 56.055363321799305%;
+    width: 75%;
     color: white;
   }
 
