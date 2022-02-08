@@ -7,7 +7,7 @@ const data = [
         bImg: 'images/carhub.png',
         view: 'This is a page made with Ruby on rails and react using 2 different repositories, one that host the api, and the other that host the front end code, so the code is more easy to mantain',
         desc: 'This is the first big description of this template projects, i will try to do my best to make them all different, but trying to they still have the same lengh, i dont use lorem fo this case so lets see how they result, this is writteng without any application or help of a machine so ejoy reading a lot of human text, this is over 100 lines but is near to the content of the orginal OH we finished.',
-        tags: 'Css,Html,React,Ruby on Rails',
+        tags: 'Css,Html,React,Rails',
         live: '#',
         repo: '#',
         alt: 'placeholder',

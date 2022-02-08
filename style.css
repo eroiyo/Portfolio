@@ -599,7 +599,6 @@ input.last {
 
 .modal-button {
   display: flex;
-  background-color: #7d73fc;
   border: none;
   text-align: center;
   padding: 2vw;
@@ -611,20 +610,11 @@ input.last {
   margin-right: auto;
 }
 
-.modal-button:focus {
-  background-color: #5e42d7;
-}
-
 .modal-button:hover {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  background-color: #7d73fc;
+  background-color: #fc766aff;
 }
 
-.repo {
-  margin-top: 24px;
-  width: 124px;
-  margin-bottom: 28px;
-}
 
 .icon {
   margin: auto auto;
@@ -633,6 +623,11 @@ input.last {
 .git {
   font-size: 20px;
   margin-left: 5px;
+}
+
+.white{
+  color: white;
+  font-size: 20px;
 }
 
 @media screen and (min-width: 638px) {
@@ -739,14 +734,6 @@ input.last {
 
   .margin {
     width: 45vw;
-  }
-
-  #ab1 {
-
-  }
-  
-  #ab2 {
-  
   }
 
   .resume {
@@ -857,19 +844,20 @@ input.last {
 
   .modal-buttons {
     flex-direction: row;
-    width: 30.527050610820243%;
+    width: 55%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 90px;
   }
 
   .modal-button {
+    border-radius: 50px;
     display: flex;
-    background-color: #7d73fc;
+    background-color: #fc766aff;
     color: black;
     transition-duration: 0.4s;
     border: none;
-    padding: 1.3888888888888888vw;
+    padding: 1.3vw;
     text-align: center;
     margin-top: 1px;
     margin-bottom: 1px;
@@ -878,8 +866,7 @@ input.last {
   }
 
   .repo {
-    width: 170px;
-    margin-left: 78px;
+    margin-left: 50px;
   }
 
   .icon {
