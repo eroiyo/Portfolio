@@ -6,10 +6,12 @@ const data = [
         img: 'images/carhub.png',
         bImg: 'images/carhub.png',
         view: 'This is a page made with Ruby on rails and react using 2 different repositories, one that host the api, and the other that host the front end code,  It is a basic Aston Martins renting app where you can choose a car and rent it for a period of time.',
-        desc: 'This is the first big description of this template projects, i will try to do my best to make them all different, but trying to they still have the same lengh, i dont use lorem fo this case so lets see how they result, this is writteng without any application or help of a machine so ejoy reading a lot of human text, this is over 100 lines but is near to the content of the orginal OH we finished.',
+        desc: `<article class="modal-info">
+        <p></p>
+        </article>`,
         tags: 'Css,Html,React,Rails',
-        live: '#',
-        repo: '#',
+        live: 'https://thecarhub.netlify.app/',
+        repo: 'https://github.com/m05e5/Car_Hub_frontend',
         alt: 'placeholder',
         bAlt: 'Big_Placeholder',
     },
@@ -20,7 +22,9 @@ const data = [
         img: 'images/clone.jpg',
         bImg: 'images/clone.jpg',
         view: "Bookstore webpage featuring a list including the name, the subtitle, current chapter, progress percentage, options, and a form to add your own books.",
-        desc: 'This project, have the backend programmed from 0, using php, it does not use any kind of php framework, so the login and database system was made by hand, the use of frameworks for the front end maked this project more faster a easy to do, i used and edited some templates for it, the most important colors in this project are yellow, white and green, i learned a lot with this project so i am happy for done it',
+        desc: `<article class="modal-info">
+        <p></p>
+        </article>`,
         tags: 'Css,Html,React',
         live: 'https://dazzling-easley-6afabd.netlify.app/',
         repo: 'https://github.com/eroiyo/React-Bookstore',
@@ -34,7 +38,9 @@ const data = [
         img: 'images/youtube.jpg',
         bImg: 'images/youtube.jpg',
         view: 'Attemp to replicate the youtube site design feautring the searching bar, the comment section, the video recommendation list, and of course, the video player.',
-        desc: 'The graphs are extremely useful when we are talking about machine learning, because they are the perfect representation for a route of desicions, with it, we can automatize any activity, also they are useful when you are trying to do certain kind of simulations, in this project a lot of conditionals were remplaced simply using binary logic, because all the conditionals only have 2 incomes, so feel free to take the trick,',
+        desc: `<article class="modal-info">
+        <p></p>
+        </article>`,
         tags: 'HTML,CSS',
         live: 'https://eroiyo.github.io/Youtube_Clone/',
         repo: 'https://github.com/eroiyo/Youtube_Clone',
