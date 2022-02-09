@@ -92,17 +92,14 @@ header {
   width: 100%;
   display: flex;
   flex-direction: row;
-  padding-top: 1vh;
   height: 7vh;
   position: fixed;
   z-index: 5;
 }
 
 nav {
-  position: fixed;
   display: flex;
   width: 100%;
-  height: 7vh;
   flex-direction: row;
 }
 
@@ -114,12 +111,10 @@ nav {
 }
 
 .nav-div {
-  height: 100%;
   display: flex;
 }
 
 .nav-div > * {
-  height: 25px;
   margin: auto auto;
 }
 
@@ -148,7 +143,6 @@ nav {
   flex-direction: column;
   z-index: -1;
   background-color: #455268;
-  background-image: url(images/nav3.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -181,10 +175,10 @@ nav {
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-repeat: no-repeat;
-  background-position: center;
   position: relative;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   background-image: url("./images/landing_3.png");
   justify-content:space-around
 }
@@ -198,7 +192,7 @@ nav {
 .title {
   font-size: 3rem;
   font-weight: 700;
-  color: #f89624;
+  color: #F5B538;
 }
 
 .subtitle {
@@ -226,7 +220,7 @@ nav {
 .social-media {
   list-style-type: none;
   padding: 0;
-  color: #f89624;
+  color: #F5B538;
   display: flex;
   flex-direction: row;
   width: 80%;
@@ -240,7 +234,7 @@ nav {
 
 .fa {
   display: block;
-  color: #f89624;
+  color: #F5B538;
   text-decoration: none;
 }
 
@@ -337,12 +331,12 @@ nav {
 .project-title {
   margin-top: 15px;
   font-size: 2rem;
-  color: #f89624;
+  color: #F5B538;
 }
 
 .project-subtitle {
   margin-top: 10px;
-  font-size: 1.75rem;
+  font-size: 1.50rem;
   margin-bottom: 10px;
 }
 
@@ -395,12 +389,251 @@ nav {
 }
 
 .changed-header {
-  padding: 0;
   background-color: #93a4c2;
   background-color: transparent;
 }
 .padding-top {
   padding-top: 1vh;
+}
+
+#contact-section {
+  background-image: url("images/raw.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#about-section {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 500px 1fr
+}
+
+.about-box {
+  width: 100%;
+  height: 100%;
+}
+
+#ab1 {
+
+}
+
+.margin {
+  padding: 5vh 5vw;
+}
+
+.margin > * {
+  text-align: left;
+}
+
+.margin > p {
+  font-size: 1.5rem;
+}
+
+#ab2 {
+  background-color: #5f7499;
+}
+
+.resume {
+  width: 152px;
+}
+
+.iam {
+  padding-top: 7vh;
+  width: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  justify-content: center;
+}
+
+.iam-text{
+  color: black;
+  margin-top: 25%;
+  font-size: 3rem;
+}
+
+form {
+  margin-top: 4vh;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  font-style: normal;
+  color: #F5B538;
+  margin-bottom: 1.2vh;
+  margin-top: 7vh;
+}
+
+.small {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  text-align: left;
+  align-self: flex-start;
+  display: flex;
+  color: #e74c3c;
+  height: 4vw;
+  font-size: 4vw;
+}
+
+input {
+  text-align: start;
+  background-color: white;
+  font-size: 1.25rem;
+  width: 90vw;
+  height: 10vw;
+  border: none;
+}
+
+textarea {
+  resize: none;
+  width: 90%;
+  background-color: white;
+  text-align: start;
+  border: none;
+  font-size: 4vw;
+}
+
+input.last {
+  display: none;
+}
+
+.contact-info {
+  width: 80%;
+}
+
+.modal-background {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(4px);
+  visibility: hidden;
+}
+
+.modal {
+  display: flex;
+  width: 87.2vw;
+  height: 90vh;
+  position: fixed;
+  background-color: rgb(95, 116, 153, 0.60);
+  z-index: 3;
+  flex-direction: column;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  overflow: scroll;
+}
+
+.modal::-webkit-scrollbar {
+  display: none;
+}
+
+.modal-header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 85.3211009174312%;
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-title {
+  font-size: 20px;
+  align-self: center;
+  color: white;
+  text-align: left;
+  width: 100%
+}
+
+.X {
+  margin-left: auto;
+  position: fixed;
+  left: 85%;
+  top: 12%;
+  cursor: pointer;
+}
+
+.modal-img {
+  margin-top: 12px;
+  width: 74vw;
+  height: 48vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#modal-tags {
+  align-content: center;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+#modal-tags span {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-button {
+  border: none;
+  border-radius: 50px;
+  background-color: #fc766aff;
+  color: black;
+  display: flex;
+  border: none;
+  text-align: center;
+  padding: 2vw;
+  margin-top: 28px;
+  margin-bottom: 1px;
+  width: 108px;
+  height: 48px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.modal-button:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  background-color: #fc766aff;
+}
+
+
+.icon {
+  margin: auto auto;
+}
+
+.git {
+  font-size: 20px;
+  margin-left: 5px;
+}
+
+.white{
+  color: white;
+  font-size: 20px;
+}
+
+.modal-info > p {
+  line-height: 24px;
+  width: 74vw;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
 }
 
 @media screen and (min-width: 638px) {
@@ -419,13 +652,6 @@ nav {
     margin-bottom: auto;
     text-align: center;
     flex-direction: row;
-  }
-
-  .subtitle-text {
-    width: 20%;
-    margin-top: auto;
-    margin-bottom: auto;
-    font-size: 2.5rem;
   }
 
   .project-card {
@@ -501,9 +727,160 @@ nav {
   }
 
   .subtitle-text {
-    width: 20%;
+    width: 200px;
     text-align: left;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  #about-section {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .margin {
+    width: 45vw;
+  }
+
+  .resume {
+    width: 107px;
+    margin-left: 0;
+  }
+
+  small {
+    height: 16px;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    font-size: 12px;
+  }
+
+  form {
+    width: 52.5%;
+  }
+
+  input {
+    font-size: 1vw;
+    width: 47.5%;
+    height: 4vw;
+    margin: 0 0;
+    padding: 0 0;
+  }
+
+  input.last {
+    display: block;
+    margin-left: auto;
+  }
+
+  input.email {
+    width: 100%;
+  }
+
+  .names {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+  }
+
+  .small {
+    height: 16px;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    font-size: 12px;
+  }
+
+  textarea {
+    font-size: 1vw;
+    width: 100%;
+    height: 100px;
+    padding: 0 0;
+  }
+
+  .contact-info {
+    width: 40%;
+    font-size: 20px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+
+  .submit {
+    margin-top: 5vh;
+    width: 13%;
+  }
+
+  .modal {
+    display: flex;
+    width: 80.27777777777777%;
+    height: 90vh;
+    font-size: 20px;
+  }
+
+  .modal-title {
+    font-size: 40px;
+  }
+
+  .X {
+    top: 15%;
+    font-size: 30px;
+  }
+
+  .red {
+    color: red;
+  }
+
+  .modal-img {
+    margin-top: 12px;
+    width: 96.68411867364748%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .modal-info > p {
+    margin-top: 30px;
+    line-height: 30px;
+    width: 75%;
+    color: white;
+  }
+
+  #modal-tags {
+    width: 55%;
+    margin-top: 80px;
+    margin-bottom: 48px;
+  }
+
+  .modal-buttons {
+    flex-direction: row;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+  }
+
+  .modal-button {
+    display: flex;
+    transition-duration: 0.4s;
+    padding: 1.3vw;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: 150px;
+    height: auto;
+  }
+
+  .repo {
+    margin-left: 50px;
+  }
+
+  .icon {
+    margin: auto auto;
+  }
+
+  .git {
+    font-size: 20px;
+    margin-left: 7px;
+  }
+
+  .modal-button span {
+    margin: auto auto;
   }
 }

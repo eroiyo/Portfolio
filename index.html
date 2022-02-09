@@ -68,6 +68,34 @@
       </div>
     </nav>
   </header>
+  <div class="modal-background">
+    <div class="modal">
+      <div class="modal-header">
+        <h2 class="modal-title">Multi - Post stories</h2>
+        <div class="X">
+          <i class="fa fa-times red" aria-hidden="true" onclick="closeModal()"></i>
+        </div>
+      </div>
+      <img class=modal-img src="assest/Big.png" alt="Big-Placeholder">
+      <article class=modal-info>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+        been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+        scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting ever since the
+        1500s, when an unknown printer took a galley of type veris lapoa todoe.
+
+      </article>
+      <div class="skills-used tags" id="modal-tags">
+        <span>Css</span>
+        <span>Html</span>
+        <span>Bootstrap</span>
+        <span>Ruby</span>
+      </div>
+      <div class="modal-buttons">
+        <a class="button modal-button live" href="#"><span>See Live</span><i class="white fa fa-globe" aria-hidden="true"></i></a>
+        <a class="button modal-button repo" href="#"><span>See Source<i class="white fa fa-github git"
+              aria-hidden="true"></i></span></a>
+      </div>
+    </div>
+  </div>
   <div class="content">
     <div id="landing" class="complete bcl2">
       <div class="space"></div>
@@ -113,6 +141,43 @@
       <div class="absolute">
         <div id="particles-js" class="work_image"></div>
       </div>
+    </div>
+    <div id="about-section" class="complete">
+      <div id="ab1" class="about-box">
+        <div class="iam">
+          <h2 class="iam-text">Hello, I Am Arturo</h2></div>
+      </div>
+      <div id="ab2" class="about-box">
+        <div class="margin">
+        <p>Hi! I’m a full-stack web developer. I love to solve problems and build things. For me, the best way to learn is through practice and hard work. I like to share what I’ve learned with others and focus on creating amazing experiences for our users that solve real problems that they face every day.</p>
+        <p>I have studied five semesters of Computer Science in the LUZ university, I graduated from Microverse, a remote software development school that teaches through pair-programming with developers from around the world building real-world projects. I’m passionate about education and learning!</p>
+        <p>I have been programming for a long time, I really enjoy programming, I am ever searching for opportunities, you can download my resume by clicking on the button below</p>
+        <a  href="https://docs.google.com/document/d/1LFk2J9Ul-lX8RnZEzHgc65lp-NSBpHH_RNdtgxnL144/edit?usp=sharing" target="_blank" class="projectbutton btn resume" value="Get Resume">Get Resume</a>
+      </div>
+    </div>
+    </div>
+    <div id="contact-section" class="complete bcl2">
+          <h2 class="contact-title">Contact Me</h2>
+    <p class="contact-info">
+      If you have an application you are interested in developing, a feature
+      that you need built or a project that needs coding. I’d love to help
+      with it
+    </p>
+    <form action="https://formspree.io/f/xayajwqb" method="POST" id='contact-form'>
+      <div class="small small-name"></div>
+      <div class="names">
+        <input placeholder="Name" class="name" type="text" name="name" maxlength="30" id="name" />
+        <input placeholder="Last Name (Optional)" class="last" type="text" name="last" maxlength="30" id="last" />
+      </div>
+      <div class="small small-email"></div>
+      <input placeholder="example@email.com" type="email" class="email" id="email" name="email" />
+      <div class=small>
+      </div>
+      <textarea name="textarea .small-textarea" id="textarea" cols="30" rows="10" placeholder="Write your message here"></textarea>
+        <button class="btn submit" type="submit">
+          <span class="submit-text">Send</span>
+        </button>
+    </form>
     </div>
     <script src="./js/particles.js"></script>
     <script src="./js/script.js"></script>
