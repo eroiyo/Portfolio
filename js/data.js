@@ -1,13 +1,16 @@
 const data = [
     {
         id: 0,
-        title: 'Car Store',
+        title: 'Car rental page',
         subtitle: 'Page using 2 different repositories',
         img: 'images/carhub.png',
         bImg: 'images/carhub.png',
-        view: 'This is a page made with Ruby on rails and react using 2 different repositories, one that host the api, and the other that host the front end code,  It is a basic Aston Martins renting app where you can choose a car and rent it for a period of time.',
+        view: 'Carhub is a car rental page created to pratice my skills on React and Ruby on Rails, let the user shedule for a car in a period of time, in this page the users also have the capacity to upload different cars models into the database so other users can rent them!',
         desc: `<article class="modal-info">
-        <p></p>
+        <p>Carhub, a one-page website where you can go for booking a car for rent. With its simple design, the website is optimized for mobile usage and fully responsive on any device.</p>
+        <p>Include a side navigation bar, which includes a logo, as well links to the different sections of the page, if you are connected, It will let you create a car, rent one, remove them from the list, and look all the models, if you are not connected it will display the login option</p>
+        <p>The storage system uses cloudinary, a cloud service that helps store images and uses the storage actions features of Ruby on Rails to store it in a dynamic way.</p>
+        <p>A simple approach with an emphasis on modularity is the core of this project, it has its own API, all the functions are documented in Github, letting Carhub can communicate with any frontend application.</p>
         </article>`,
         tags: 'Css,Html,React,Rails',
         live: 'https://thecarhub.netlify.app/',
