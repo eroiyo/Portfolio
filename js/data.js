@@ -26,7 +26,7 @@ const data = [
         bImg: 'images/clone.jpg',
         view: "Bookstore webpage featuring a list including the name, the subtitle, current chapter, progress percentage, options, and a form to add your own books.",
         desc: `<article class="modal-info">
-        <p></p>
+        <p>This Layout have been created based on a figma design, it would be able to show </p>
         </article>`,
         tags: 'Css,Html,React',
         live: 'https://dazzling-easley-6afabd.netlify.app/',

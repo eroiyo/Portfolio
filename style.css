@@ -143,7 +143,6 @@ nav {
   flex-direction: column;
   z-index: -1;
   background-color: #455268;
-  background-image: url(images/nav3.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
