@@ -26,7 +26,8 @@ const data = [
         bImg: 'images/clone.jpg',
         view: "Bookstore webpage featuring a list including the name, the subtitle, current chapter, progress percentage, options, and a form to add your own books.",
         desc: `<article class="modal-info">
-        <p>This Layout have been created based on a figma design, it would be able to show </p>
+        <p>This Layout has been created based on a Figma design, Bookstore CMS would be able to display in a simple way information that lets the user track their read books, the current chapter they are on, and the percentage of how much they had completed of that book. </p>
+        <p>Also, include a form where the user can create, a book, just need to insert the author, category, and name of the book, store all your books information, from your favorite authors to the genre and publisher. With a fast and intuitive way to insert, update and delete all your books.</p>
         </article>`,
         tags: 'Css,Html,React',
         live: 'https://dazzling-easley-6afabd.netlify.app/',
