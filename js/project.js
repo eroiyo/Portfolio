@@ -138,6 +138,28 @@ function Project(object) {
     }
     objetive.appendChild(projectCard)
   }
+  this.message = function () {
+    const modalTitle = document.querySelector('.modal-title');
+    modalTitle.textContent = this.title;
+    const modalImage = document.querySelector('.modal-img');
+    modalImage.src = this.bigImage;
+    const modalInfo = document.querySelector('.modal-info');
+    modalInfo.innerHTML = this.description;
+    const modalTags = document.querySelector('#modal-tags');
+    while (modalTags.hasChildNodes()) {
+      modalTags.removeChild(modalTags.lastChild);
+    }
+    const copy = this.tags;
+    for (let i = 0; i < copy.length; i += 1) {
+      const span = document.createElement('span');
+      span.innerHTML = this.tags[i];
+      modalTags.appendChild(span);
+    }
+    const live = document.querySelector('.live');
+    live.href = this.live;
+    const repo = document.querySelector('.repo');
+    repo.href = this.repo;
+  };
 }
 
 export default Project;

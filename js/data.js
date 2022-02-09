@@ -1,59 +1,81 @@
 const data = [
     {
         id: 0,
-        title: 'Multi-Post Stories 1',
-        subtitle: 'Multi-Post Stories 1',
-        img: 'images/test.jpg',
-        bImg: 'images/test.jpg',
-        view: 'This is the first project card that will appear, looks like the box is in the left, like the figma design, the next box will be in the right i like these dynamic mechanics and is nice looking!',
-        desc: 'This is the first big description of this template projects, i will try to do my best to make them all different, but trying to they still have the same lengh, i dont use lorem fo this case so lets see how they result, this is writteng without any application or help of a machine so ejoy reading a lot of human text, this is over 100 lines but is near to the content of the orginal OH we finished.',
-        tags: 'Css,Html,Figma,Javascript',
-        live: '#',
-        repo: '#',
+        title: 'Car rental page',
+        subtitle: 'Page using 2 different repositories',
+        img: 'images/carhub.png',
+        bImg: 'images/carhub.png',
+        view: 'Carhub is a car rental page created to pratice my skills on React and Ruby on Rails, let the user shedule for a car in a period of time, in this page the users also have the capacity to upload different cars models into the database so other users can rent them!',
+        desc: `<article class="modal-info">
+        <p>Carhub, a one-page website where you can go for booking a car for rent. With its simple design, the website is optimized for mobile usage and fully responsive on any device.</p>
+        <p>Include a side navigation bar, which includes a logo, as well links to the different sections of the page, if you are connected, It will let you create a car, rent one, remove them from the list, and look all the models, if you are not connected it will display the login option</p>
+        <p>The storage system uses cloudinary, a cloud service that helps store images and uses the storage actions features of Ruby on Rails to store it in a dynamic way.</p>
+        <p>A simple approach with an emphasis on modularity is the core of this project, it has its own API, all the functions are documented in Github, letting Carhub can communicate with any frontend application.</p>
+        </article>`,
+        tags: 'Css,Html,React,Rails',
+        live: 'https://thecarhub.netlify.app/',
+        repo: 'https://github.com/m05e5/Car_Hub_frontend',
         alt: 'placeholder',
         bAlt: 'Big_Placeholder',
     },
     {
         id: 1,
-        title: 'Lasttask Web Store',
-        subtitle: 'Lasttask Web Store',
-        img: 'images/test.jpg',
-        bImg: 'images/test.jpg',
-        view: "This was one of my early projects i did when i was exploring the web development, it's a model of a webstore, have a shopping cart, product pages, account system and everything a store should need.",
-        desc: 'This project, have the backend programmed from 0, using php, it does not use any kind of php framework, so the login and database system was made by hand, the use of frameworks for the front end maked this project more faster a easy to do, i used and edited some templates for it, the most important colors in this project are yellow, white and green, i learned a lot with this project so i am happy for done it',
-        tags: 'Css,Html,React,PHP',
-        live: '#',
-        repo: 'https://github.com/eroiyo/lasttask',
+        title: 'Bookstore CMS',
+        subtitle: 'React page based in a figma design',
+        img: 'images/clone.jpg',
+        bImg: 'images/clone.jpg',
+        view: "Bookstore webpage featuring a list including the name, the subtitle, current chapter, progress percentage, options, and a form to add your own books.",
+        desc: `<article class="modal-info">
+        <p>This Layout has been created based on a Figma design, Bookstore CMS would be able to display in a simple way information that lets the user track their read books, the current chapter they are on, and the percentage of how much they had completed of that book. </p>
+        <p>Also, include a form where the user can create, a book, just need to insert the author, category, and name of the book, store all your books information, from your favorite authors to the genre and publisher. With a fast and intuitive way to insert, update and delete all your books.</p>
+        </article>`,
+        tags: 'Css,Html,React',
+        live: 'https://dazzling-easley-6afabd.netlify.app/',
+        repo: 'https://github.com/eroiyo/React-Bookstore',
         alt: 'placeholder',
         bAlt: 'Big_Placeholder',
     },
     {
         id: 2,
-        title: 'Labyrinth-Generator',
-        subtitle: 'Labyrinth-Generator',
-        img: 'images/test.jpg',
-        bImg: 'images/test.jpg',
-        view: 'A maze generator using graphs, using a array matrix, commands for vectors, and binary logic to display the letters, this project is filled with tricky programming algroithms that are not commonly use, but when needed are very welcome.',
-        desc: 'The graphs are extremely useful when we are talking about machine learning, because they are the perfect representation for a route of desicions, with it, we can automatize any activity, also they are useful when you are trying to do certain kind of simulations, in this project a lot of conditionals were remplaced simply using binary logic, because all the conditionals only have 2 incomes, so feel free to take the trick,',
-        tags: 'Java',
-        live: '#',
-        repo: 'https://github.com/eroiyo/Labyrinth-Generator',
+        title: 'Youtube Clone',
+        subtitle: 'Html and CSS only page',
+        img: 'images/youtube.jpg',
+        bImg: 'images/youtube.jpg',
+        view: 'Attempt to replicate the youtube site design featuring the searching bar, the comment section, the video recommendation list, and of course, the video player.',
+        desc: `<article class="modal-info">
+        <p>In this project, only worked exclusively in the video page layout section, some small details can be appreciated, like the small badge depending what kind of channel uploaded the video.</p>
+        <p>Youtube have been evolving since, so here you can appreciated some old details like the bar that is under the video that go next, and the dislike button.</p>
+        </article>`,
+        tags: 'HTML,CSS',
+        live: 'https://eroiyo.github.io/Youtube_Clone/',
+        repo: 'https://github.com/eroiyo/Youtube_Clone',
         alt: 'placeholder',
         bAlt: 'Big_Placeholder',
     },
     {
         id: 3,
-        title: 'Calculator',
-        subtitle: 'Calculator',
-        img: 'images/test.jpg',
-        bImg: 'images/test.jpg',
-        view: 'This calculator was made to try to look likes a casio calculator, a very early project. with this, I explored the world of javascript functions and use buttons to control and display the resulting information in HTML documents',
-        desc: 'An electronic calculator is typically a portable electronic device used to perform calculations, ranging from basic arithmetic to complex mathematics, contain a keyboard with buttons for digits and arithmetical operations; contain buttons to make larger or smaller numbers easier to enter this basic calculators assign only one digit or operation on each button; however, in more specific calculators, a button can perform multi-function working with key combinations.',
+        title: 'Conference Website',
+        subtitle: 'Website created using an behance design as reference',
+        img: 'images/conference.png',
+        bImg: 'images/conference.png',
+        view: 'Conference webpage, created for an Capstone project to practice our html skills, we should pick a topic and use layout, colors and typographic already defined in a behance design made by Cindy Shin',
+        desc: `<article class="modal-info">
+        <p>This is a fully responsive, one-page website for a fictional conference named World Chocolate Convention 2021</p>
+
+        <p>The conference website have a white navigation bar, which includes a logo, as well as sections for "Home" and  "About"</p>
+        
+        <p>Landing in the home section provides a professional, polished look for your conference. Use white space to give this design a clean look and feel, highlighting your content and drawing attention to your event website at the same time informing about the schedule.</p>
+        
+        <p>Continuing with the section below, mentioning the main events of the conference and the dynamically generated speaker section that show the experts that will accompany us</p>
+        
+        <p>About section talk about the event values, and give space to showcase the prior events
+        
+        <p>Layout and design inspired by Cindy Shin</p></article>`,
         tags: 'Css,Html,Javascript',
-        live: 'https://eroiyo.github.io/Calculator/',
-        repo: 'https://github.com/eroiyo/Calculator/settings/pages',
-        alt: 'calculator',
-        bAlt: 'Big_Placeholder',
+        live: 'https://eroiyo.github.io/Conference-Web/',
+        repo: 'https://github.com/eroiyo/Conference-Web',
+        alt: 'conference',
+        bAlt: 'conference',
     },
 ];
 export default data;
