@@ -41,9 +41,10 @@ const data = [
         subtitle: 'Html and CSS only page',
         img: 'images/youtube.jpg',
         bImg: 'images/youtube.jpg',
-        view: 'Attemp to replicate the youtube site design feautring the searching bar, the comment section, the video recommendation list, and of course, the video player.',
+        view: 'Attempt to replicate the youtube site design featuring the searching bar, the comment section, the video recommendation list, and of course, the video player.',
         desc: `<article class="modal-info">
-        <p></p>
+        <p>In this project, only worked exclusively in the video page layout section, some small details can be appreciated, like the small badge depending what kind of channel uploaded the video.</p>
+        <p>Youtube have been evolving since, so here you can appreciated some old details like the bar that is under the video that go next, and the dislike button.</p>
         </article>`,
         tags: 'HTML,CSS',
         live: 'https://eroiyo.github.io/Youtube_Clone/',
