@@ -5,7 +5,7 @@ const data = [
         subtitle: 'Page using 2 different repositories',
         img: 'images/carhub.png',
         bImg: 'images/carhub.png',
-        view: 'Carhub is a car rental page created to pratice my skills on React and Ruby on Rails, let the user shedule for a car in a period of time, in this page the users also have the capacity to upload different cars models into the database so other users can rent them!',
+        view: 'Carhub is a car rental page created to pratice my skills on React and Ruby on Rails, let the user schedule a car in period of time, in this page the users also have the capacity to upload different cars models into the database so other users can rent them!',
         desc: `<article class="modal-info">
         <p>Carhub, a one-page website where you can go for booking a car for rent. With its simple design, the website is optimized for mobile usage and fully responsive on any device.</p>
         <p>Include a side navigation bar, which includes a logo, as well links to the different sections of the page, if you are connected, It will let you create a car, rent one, remove them from the list, and look all the models, if you are not connected it will display the login option</p>
@@ -58,7 +58,7 @@ const data = [
         subtitle: 'Website created using an behance design as reference',
         img: 'images/conference.png',
         bImg: 'images/conference.png',
-        view: 'Conference webpage, created for an Capstone project to practice our html skills, we should pick a topic and use layout, colors and typographic already defined in a behance design made by Cindy Shin',
+        view: 'Conference webpage, created for a Capstone project to practice our HTML skills, we should pick a topic and use layout, colors, and typographic already defined in a Behance design made by Cindy Shin',
         desc: `<article class="modal-info">
         <p>This is a fully responsive, one-page website for a fictional conference named World Chocolate Convention 2021</p>
 
