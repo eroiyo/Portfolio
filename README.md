@@ -1,6 +1,6 @@
 # My Portafolio
 
-> A webpage to show others projects i have created or participated in
+> A webpage to showcase projects I have created or participated in their development
 
 ## Live Demo
 
